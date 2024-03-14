@@ -1,0 +1,54 @@
+{
+  "auth": {
+    "username": "sachinjadhav_OfYNWR",
+    "access_key": "3xQp7ZXxmT5kr6BRvzKP"
+  },
+  "browsers": [
+    {
+      "browser": "chrome",
+      "os": "Windows 10",
+      "versions": ["latest"]
+    },
+    {
+      "browser": "edge",
+      "os": "Windows 11",
+      "versions": ["latest"]
+    },
+    {
+      "browser": "firefox",
+      "os": "OS X Big Sur",
+      "versions": ["latest"]
+    }
+  ],
+  "run_settings": {
+    "geolocation": "US",
+    "cypress_config_file": "./cypress.config.js",
+    "project_name": "BrowserStack Examples",
+    "build_name": "browserstack-build-1",
+    "downloads": ["./results"],
+    "exclude": [],
+    "parallels": "0",
+    "npm_dependencies": {
+      "cypress": "^12.5.1",
+      "cypress-cucumber-preprocessor": "^4.3.1",
+      "cypress-multi-reporters": "^1.6.2",
+      "cypress-xpath": "^2.0.1",
+      "mocha-junit-reporter": "^2.2.0",
+      "mochawesome": "^7.1.3"
+    },
+    "package_config_options": {
+      "cypress-cucumber-preprocessor": {
+        "stepDefinitions": "cypress/support/step_definitions"
+      }
+    },
+    "headless": true,
+    "network_logs": true
+  },
+  "connection_settings": {
+    "local": false,
+    "local_identifier": null,
+    "local_mode": null,
+    "local_config_file": null
+  },
+  "disable_usage_reporting": false
+}
