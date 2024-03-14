@@ -1,22 +1,12 @@
 {
   "auth": {
-    "username": "sachinjadhav_OfYNWR",
-    "access_key": "3xQp7ZXxmT5kr6BRvzKP"
+    "username": "BROWSERSTACK_USERNAME",
+    "access_key": "BROWSERSTACK_ACCESS_KEY"
   },
   "browsers": [
     {
       "browser": "chrome",
       "os": "Windows 10",
-      "versions": ["latest"]
-    },
-    {
-      "browser": "edge",
-      "os": "Windows 11",
-      "versions": ["latest"]
-    },
-    {
-      "browser": "firefox",
-      "os": "OS X Big Sur",
       "versions": ["latest"]
     }
   ],
@@ -27,7 +17,7 @@
     "build_name": "browserstack-build-1",
     "downloads": ["./results"],
     "exclude": [],
-    "parallels": "0",
+    "parallels": "1",
     "npm_dependencies": {
       "cypress": "^12.5.1",
       "cypress-cucumber-preprocessor": "^4.3.1",

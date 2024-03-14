@@ -7,3 +7,5 @@ log
 *.log
 results
 build_artifacts
+.vscode/
+
